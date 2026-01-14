@@ -1,0 +1,17 @@
+{
+    "model_type": "Linerar Regression",
+    "problem_type": "Regression",
+    "target_variable": "house_price",
+    "input_features":[
+        {
+            "name": "area",
+            "type": "numerical",
+            "unit": "square_feet",
+            "min" :200,
+            "max" :10000    
+        }
+    ],
+    "output_format": "INR",
+    "version": "1.0.0",
+    "Created_by": "ML Team"
+}
